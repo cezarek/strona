@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Serwis komputerowy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: rgb(211, 211, 211);">
+        <a class="navbar-brand" href="strona.html"><img src="lol.png" width="60"><a class="ml-3" style="font-weight: bold; color: rgb(230, 111, 0)" href="strona.html">CesaroIT</a></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" style="color: rgb(94, 94, 94) !important;" href="strona.html">STRONA GŁÓWNA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: rgb(94, 94, 94) !important;"  href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: rgb(94, 94, 94) !important;"  href="naprawy.html">NAPRAWY</a>
+            </li>    
+            <li class="nav-item">
+              <a class="nav-link" style="color: rgb(94, 94, 94) !important;"  href="kontakt.html">KONTAKT</a>
+            </li>    
+          </ul>
+        </div>  
+    </nav>
+
+    <!-- NAPRAWA KOMPUTEROW -->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <img src="rob.jpg" class="img-fluid" alt="img">
+            </div>
+        </div>
+    </section>
+
+
+    <style>
+        .centered {
+            display: flex;
+            flex-direction: column; 
+            justify-content: center;
+        }
+    </style>
+
+    <!-- kilka naszych napraw -->
+    <div style="background-color: rgb(211,211,211);" class="py-3">
+        <h2 class="text-center">Kilka naszych napraw</h2>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+			<li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+        
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="container">
+                            <img src="naprawa.jpg" style="width: 100%; border-radius: 3%;" class="my-3">
+                        </div>
+                    </div>
+                    <div class="col-md-6 pb-5 centered"><h5 class="text-center pt-3" style=" color: rgb(230, 111, 0)">WYMIANA KARTY GRAFICZNEJ NA PALIT RTX 3090 GAMEROCK 24GB</h5></div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="container">
+                            <img src="ryzen.jpg" style="width: 100%; border-radius: 3%;" class="my-3">
+                        </div>
+                    </div>
+                    <div class="col-md-6 pb-5 centered"><h5 class="text-center pt-3" style=" color: rgb(230, 111, 0)">MONTAŻ PROCESORA AMD Ryzen Threadripper 2990WX </h5></div>
+                </div>
+            </div>
+			 <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="container">
+                            <img src="dysk.jpeg" style="width: 100%; border-radius: 3%;" class="my-3">
+                        </div>
+                    </div>
+                    <div class="col-md-6 pb-5 centered"><h5 class="text-center pt-3" style=" color: rgb(230, 111, 0)">WYMIANA DYSKU NA SSD TOSHIBA 256 GB</h5></div>
+                </div>
+            </div>
+        
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        </div>
+    </div>
+    <div class="container-fluid py-3 text-white" style="background-color: rgb(197, 0, 0);">
+        <div class="container text-center">
+            <h3>Newsletter</h3>
+            <a>Zarejestruj się, aby otrzymywać najnowsze informacje o sprzedaży, nowościach i nie tylko… </a>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <input type="email" class="form-control-plaintext" style="border-radius: 5px; background-color: rgb(255, 255, 255);">
+                </div>
+                <div class="col-md-6">
+                    <input class="btn btn-primary" type="button" value="Zapisz się">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="pt-4 bg-dark">
+        <div class="container text-center text-white">
+            <div class="row">
+                <div class="col-md-4">
+                    <h6>Czy wiesz że...</h6>
+                    <p>Pierwszy na świecie superkomputer został opracowany przez IBM w 1956 roku. Ważył prawie tonę i przechowywał tylko 5 MB danych.</p>
+                </div>
+                <div class="col-md-4">
+                    <h6>Czy wiesz że...</h6>
+                    <p> Sieć WWW została stworzona w CERN w Szwajcarii w 1990 roku przez Brytyjczyka Tima Berners-Lee. </p>
+                </div>
+                <div class="col-md-4">
+                    <h6>Czy wiesz że...</h6>
+                    <p>Pierwsza mysz komputerowa została wykonana z drewna. Stworzona została w 1964 roku. </p>
+                </div>
+              </div>
+        </div>
+        <div style="width: 80%; height: 2px; background-color: #fff; margin-left: 10%; margin-top: 2%;"></div>
+        <div class="container">
+            <div class="row">            
+                <div class="col-6"><img src="lol.png" width="120" class="py-3"><a class="ml-3" style="font-weight: bold; color: rgb(230, 111, 0)" href="strona.html">CesaroIT</a></div>
+                <div class="col-6 pt-5 d-flex justify-content-end">
+                        <a href="https://business.facebook.com/TronicsFix" target="_blank"><img src="fb.png" width="60" class="py-3"></a>
+                        <a href="https://www.instagram.com/rog_polska/" target="_blank"><img src="int.png" width="60" class="py-3"></a>
+                        <a href="https://www.tiktok.com/@techpudding/video/7056413634729118982?lang=pl-PL" target="_blank"><img src="tik.png" width="60" class="py-3"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
